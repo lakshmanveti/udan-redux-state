@@ -1,0 +1,21 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "typescript": "^5.6.2",
+    "udan-redux-state": "file:../udan-redux-state-1.0.0.tgz"
+  }
+}
